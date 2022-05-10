@@ -1,7 +1,7 @@
 {
   "name": "mycomponentsvue",
   "description": "my vue components:[inputSearch,selectSearch]",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "zhouzhenhan <1659725767@qq.com>",
   "license": "MIT",
   "private": false,
