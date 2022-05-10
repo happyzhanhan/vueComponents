@@ -1,26 +1,39 @@
 <template>
   <div id="app">
-    <inputSearch :pname="msg" v-model="init"></inputSearch>
-    <button class="zzh-button" @click="commit">确定</button>
+    <div>
+      <inputSearch :pname="msg" v-model="init"></inputSearch>
+      <selectSearch :pname="msg2" v-model="init2" :options="options"></selectSearch>
+      <button class="zzh-button" @click="commit">确定</button>
+    </div>
   </div>
 </template>
 
 <script>
 import inputSearch from './components/inputSearch'
+import selectSearch from './components/selectSearch'
 export default {
   name: 'app',
   components:{
-    inputSearch
+    inputSearch, selectSearch
   },
   data () {
     return {
       msg: 'Name',
-      init: '123456'
+      init: '123456',
+      msg2: 'sex',
+      init2: '0',
+      options:[{
+        value: "0",
+        label: "男"
+      },{
+        value: "1",
+        label: "女"
+      }]
     }
   },
   methods:{
     commit(){
-      console.log(this.init)
+      console.log(this.init,this.init2)
     }
   }
 }
