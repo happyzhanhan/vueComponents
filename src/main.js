@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
+import testname from './components/testname'
 import inputSearch from './components/inputSearch'
 import selectSearch from './components/selectSearch'
 
 const components = [
-  inputSearch, selectSearch
+  inputSearch, selectSearch, testname
 ]
 const install = function (Vue) {
   if (install.installed) return

@@ -1,8 +1,9 @@
 import testname from './components/testname'
-// import selectSearch from './components/selectSearch'
+import inputSearch from './components/inputSearch'
+import selectSearch from './components/selectSearch'
 
 const components = [
-    testname
+    testname, selectSearch, inputSearch
 ]
 const install = function (Vue) {
     if (install.installed) return
