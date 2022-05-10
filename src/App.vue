@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div>
-      <testname :pname="msg" v-model="init"></testname>
       <inputSearch :pname="msg" v-model="init"></inputSearch>
       <selectSearch :pname="msg2" v-model="init2" :options="options"></selectSearch>
       <button class="zzh-button" @click="commit">确定</button>
@@ -10,13 +9,12 @@
 </template>
 
 <script>
-import testname from './components/testname'
 import inputSearch from './components/inputSearch'
 import selectSearch from './components/selectSearch'
 export default {
   name: 'app',
   components:{
-    inputSearch, selectSearch, testname
+    inputSearch, selectSearch,
   },
   data () {
     return {

@@ -6,7 +6,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'mycomponentsvue.js'
+    filename: "mycomponentsvue.js", // npm run build生成的文件名
+    library: "mycomponentsvue", // 指定的就是你使用require时的模块名
+    libraryTarget: "umd", // 指定输出格式
   },
   module: {
     rules: [
@@ -83,7 +85,7 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map'
+  // devtool: '#eval-source-map'
 }
 
 if (process.env.NODE_ENV === 'production') {
@@ -96,7 +98,7 @@ if (process.env.NODE_ENV === 'production') {
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
+      sourceMap: false,
       compress: {
         warnings: false
       }
