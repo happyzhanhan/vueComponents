@@ -1,8 +1,17 @@
+/*
+ * @Author: zhouzhenhan 11902941+zhouzhenhan@user.noreply.gitee.com
+ * @Date: 2022-05-09 19:07:14
+ * @LastEditors: zhouzhenhan 11902941+zhouzhenhan@user.noreply.gitee.com
+ * @LastEditTime: 2023-07-24 16:02:29
+ * @FilePath: \vueComponents\src\main.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import Vue from 'vue'
 import App from './App.vue'
 
 import inputSearch from '../src/components/inputSearch'
 import selectSearch from '../src/components/selectSearch'
+import dragGroup from '../src/components/dragGroup'
 
 const components = [
   inputSearch, selectSearch,

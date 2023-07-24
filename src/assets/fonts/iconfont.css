@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "zhiconfont"; /* Project id 4180571 */
+  src: url('iconfont.woff2?t=1690182220715') format('woff2'),
+       url('iconfont.woff?t=1690182220715') format('woff'),
+       url('iconfont.ttf?t=1690182220715') format('truetype');
+}
+
+.zhiconfont {
+  font-family: "zhiconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zhicon-xiangxia:before {
+  content: "\e600";
+}
+
+.zhicon-xiangyou:before {
+  content: "\e6d8";
+}
+
+.zhicon-baocun:before {
+  content: "\e936";
+}
+
+.zhicon-baocun1:before {
+  content: "\e6bf";
+}
+
+.zhicon-xinzengwenjianjia:before {
+  content: "\e761";
+}
+
+.zhicon-xinzengwenjian:before {
+  content: "\e762";
+}
+
+.zhicon-shanchu:before {
+  content: "\e74b";
+}
+
+.zhicon-iconfontwenzi:before {
+  content: "\e625";
+}
+
+.zhicon-yanjing:before {
+  content: "\e6cf";
+}
+
+.zhicon-yanjing1:before {
+  content: "\e6d1";
+}
+
+.zhicon-bianji:before {
+  content: "\e8ac";
+}
+
+.zhicon-juxing1:before {
+  content: "\e629";
+}
+
+.zhicon-yuanjiaojuxing:before {
+  content: "\e63f";
+}
+
+.zhicon-yidong:before {
+  content: "\e6f8";
+}
+
+.zhicon-layer:before {
+  content: "\e613";
+}
+

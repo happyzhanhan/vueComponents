@@ -1,8 +1,9 @@
 import inputSearch from './components/inputSearch'
 import selectSearch from './components/selectSearch'
+import dragGroup from './components/dragGroup'
 
 const components = [
-    inputSearch, selectSearch,
+    inputSearch, selectSearch, dragGroup
 ]
 const install = function (Vue) {
     if (install.installed) return

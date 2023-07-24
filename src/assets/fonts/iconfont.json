@@ -1,0 +1,114 @@
+{
+  "id": "4180571",
+  "name": "vueComponents",
+  "font_family": "zhiconfont",
+  "css_prefix_text": "zhicon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14732",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4996275",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "5399558",
+      "name": "保存",
+      "font_class": "baocun",
+      "unicode": "e936",
+      "unicode_decimal": 59702
+    },
+    {
+      "icon_id": "6271024",
+      "name": "保存",
+      "font_class": "baocun1",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "35987033",
+      "name": "新增文件夹",
+      "font_class": "xinzengwenjianjia",
+      "unicode": "e761",
+      "unicode_decimal": 59233
+    },
+    {
+      "icon_id": "35987034",
+      "name": "新增文件",
+      "font_class": "xinzengwenjian",
+      "unicode": "e762",
+      "unicode_decimal": 59234
+    },
+    {
+      "icon_id": "577357",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "655436",
+      "name": "iconfont-wenzi",
+      "font_class": "iconfontwenzi",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "8361844",
+      "name": "眼睛3",
+      "font_class": "yanjing",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "8361861",
+      "name": "眼睛4",
+      "font_class": "yanjing1",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "11372640",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e8ac",
+      "unicode_decimal": 59564
+    },
+    {
+      "icon_id": "17560032",
+      "name": "矩形",
+      "font_class": "juxing1",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "17560035",
+      "name": "圆角矩形",
+      "font_class": "yuanjiaojuxing",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "36083058",
+      "name": "移动",
+      "font_class": "yidong",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "10904998",
+      "name": "图层",
+      "font_class": "layer",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}
