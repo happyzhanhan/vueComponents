@@ -117,6 +117,9 @@ iconfont字体包下载后使用【iconfont-tools】命令步骤如下：
 - 动画组件：Png序列帧、lottie动画、svg动画
 - 表单数字限制输入控制
 
+> v0.0.17
+- 动画名称未对应
+
 
 
 

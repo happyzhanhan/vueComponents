@@ -7,7 +7,7 @@
   
   <script>
       export default {
-          name: "inputSearch",
+          name: "inputNumber",
           props: {
               pname:{
                   type:String,

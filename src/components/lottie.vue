@@ -5,7 +5,7 @@
 <script>
 import lottie from 'lottie-web'
 export default {
-  name: "firstlottie",
+  name: "lottie",
   props: {
     animationData: {
       type: Object,

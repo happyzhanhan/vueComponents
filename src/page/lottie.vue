@@ -1,15 +1,15 @@
 <template>
  <div class='divBox'>
-  <firstlottie :animationData="lottie" :autoplay="false"></firstlottie>
+  <lottie :animationData="lottie" :autoplay="false"></lottie>
  </div>
 </template>
 
 <script>
-import firstlottie from '../components/lottie.vue';
+import lottie from '../components/lottie.vue';
 export default {
   name: 'lottie',
   components:{
-    firstlottie
+    lottie
   },
   data () {
     return {
