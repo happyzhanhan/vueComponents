@@ -15,7 +15,9 @@
       <g id="svg-path-drop2" style="filter: url('#goo');">
           <defs>
               <filter id="goo">
+                  <!-- 高斯滤波器 -->
                   <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                  <!-- 色彩矩阵滤波器 只对透明度更改-->
                   <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
                   <feBlend in="SourceGraphic" in2="goo" />
               </filter>

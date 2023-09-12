@@ -1,6 +1,6 @@
 <template>
  <div class='divBox'>
-  <svgLoading></svgLoading>
+  <svgLoading style="width: 300px;"></svgLoading>
  </div>
 </template>
 
