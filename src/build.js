@@ -1,10 +1,15 @@
 import inputSearch from './components/inputSearch'
 import selectSearch from './components/selectSearch'
 import dragGroup from './components/dragGroup'
-import zTag from './components/zTag'
+import colorPick from './components/colorPick'
+import gifLoading from './components/gifLoading'
+import lottie from './components/lottie'
+import svgLoading from './components/svgLoading'
+import inputNumber from './components/inputNumber'
+// import {inputSearch, selectSearch, dragGroup, colorPick, gifLoading, lottie, svgLoading, inputNumber} from './components'
 
 const components = [
-    inputSearch, selectSearch, dragGroup,zTag
+    inputSearch, selectSearch, dragGroup, colorPick, gifLoading, lottie, svgLoading, inputNumber
 ]
 const install = function (Vue) {
     if (install.installed) return

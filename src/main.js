@@ -2,7 +2,7 @@
  * @Author: zhouzhenhan 11902941+zhouzhenhan@user.noreply.gitee.com
  * @Date: 2022-05-09 19:07:14
  * @LastEditors: zhouzhenhan
- * @LastEditTime: 2023-09-07 19:08:15
+ * @LastEditTime: 2023-09-12 11:21:19
  * @FilePath: \vueComponents\src\main.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -13,9 +13,15 @@ import inputSearch from '../src/components/inputSearch'
 import selectSearch from '../src/components/selectSearch'
 import dragGroup from '../src/components/dragGroup'
 import colorPick from '../src/components/colorPick'
+import gifLoading from '../src/components/gifLoading'
+import lottie from '../src/components/lottie'
+import svgLoading from '../src/components/svgLoading'
+import inputNumber from '../src/components/inputNumber'
+
+// import {inputSearch, selectSearch, dragGroup, colorPick, gifLoading, lottie, svgLoading, inputNumber} from '../src/components'
 
 const components = [
-  inputSearch, selectSearch, dragGroup, colorPick
+  inputSearch, selectSearch, dragGroup, colorPick, gifLoading, lottie, svgLoading, inputNumber
 ]
 const install = function (Vue) {
   if (install.installed) return

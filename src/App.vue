@@ -15,11 +15,14 @@
 import login from './page/login.vue'
 import layer from './page/layer.vue'
 import color from './page/color.vue'
+import loading from './page/loading.vue'
+import lottie from './page/lottie.vue'
+import svgLoad from './page/svgLoad.vue'
 
 export default {
   name: 'app',
   components:{
-    login, layer, color
+    login, layer, color, loading, lottie, svgLoad
   },
   data () {
     return {
@@ -39,6 +42,21 @@ export default {
           id:2,
           name: '颜色选择',
           component: 'color'
+        },
+        {
+          id:3,
+          name: 'Png序列帧',
+          component: 'loading'
+        },
+        {
+          id:4,
+          name: 'lottie动画',
+          component: 'lottie'
+        },
+        {
+          id:5,
+          name: 'svg动画',
+          component: 'svgLoad'
         },
       ],
       cur: 0,

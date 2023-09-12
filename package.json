@@ -1,7 +1,7 @@
 {
   "name": "mycomponentsvue",
-  "description": "my vue components:[inputSearch,selectSearch, dragGroup, colorPick]",
-  "version": "0.0.15",
+  "description": "my vue components:[inputSearch, selectSearch, dragGroup, colorPick, gifLoading, lottie, svgLoading, inputNumber]",
+  "version": "0.0.16",
   "author": "zhouzhenhan <1659725767@qq.com>",
   "license": "MIT",
   "private": false,
@@ -11,6 +11,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "lottie-web": "^5.12.2",
     "vue": "^2.5.11"
   },
   "browserslist": [
