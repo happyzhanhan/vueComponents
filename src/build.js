@@ -6,10 +6,11 @@ import gifLoading from './components/gifLoading'
 import lottie from './components/lottie'
 import svgLoading from './components/svgLoading'
 import inputNumber from './components/inputNumber'
+import dragDialog from '../src/components/dragDialog'
 // import {inputSearch, selectSearch, dragGroup, colorPick, gifLoading, lottie, svgLoading, inputNumber} from './components'
 
 const components = [
-    inputSearch, selectSearch, dragGroup, colorPick, gifLoading, lottie, svgLoading, inputNumber
+    inputSearch, selectSearch, dragGroup, colorPick, gifLoading, lottie, svgLoading, inputNumber, dragDialog
 ]
 const install = function (Vue) {
     if (install.installed) return

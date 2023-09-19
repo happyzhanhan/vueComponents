@@ -18,11 +18,12 @@ import color from './page/color.vue'
 import loading from './page/loading.vue'
 import lottie from './page/lottie.vue'
 import svgLoad from './page/svgLoad.vue'
+import popup from './page/popup.vue'
 
 export default {
   name: 'app',
   components:{
-    login, layer, color, loading, lottie, svgLoad
+    login, layer, color, loading, lottie, svgLoad, popup
   },
   data () {
     return {
@@ -57,6 +58,11 @@ export default {
           id:5,
           name: 'svg动画',
           component: 'svgLoad'
+        },
+        {
+          id:6,
+          name: 'popup',
+          component: 'popup'
         },
       ],
       cur: 0,
